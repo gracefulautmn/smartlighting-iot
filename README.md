@@ -26,7 +26,7 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
 
 ---
 
-## 🛠️ Komponen
+##  Komponen
 
 | Komponen                  | Jumlah | Keterangan                                |
 |---------------------------|--------|--------------------------------------------|
@@ -50,7 +50,7 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
 
 ---
 
-## 🔌 Skema Sederhana
+##  Skema Sederhana
 
 ```plaintext
 [LDR] ---+--- GND
@@ -61,3 +61,7 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
 
 LED+ ------ GPIO 18 (PWM)
 LED- ------ GND
+
+##  Diagram Blok Sistem
+
+![Diagram Blok Sistem](diagram-block-system.png)
