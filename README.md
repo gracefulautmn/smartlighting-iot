@@ -53,11 +53,11 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
 ##  Skema Sederhana
 
 ```plaintext
-[LDR] ---+--- GND
-         |
-        [10K Resistor]
-         |
-       GPIO 34 (ADC ESP32)
+[LDR]--[-]--[RTC] ---[+]--- GND
+        |             |
+       3V3 --- [10K Resistor]
+                    |
+               GPIO(ADC ESP32)
 
 LED+ ------ GPIO 18 (PWM)
 LED- ------ GND
