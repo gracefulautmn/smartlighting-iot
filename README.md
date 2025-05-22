@@ -61,7 +61,9 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
 
 LED+ ------ GPIO 18 (PWM)
 LED- ------ GND
+```
 
-##  Diagram Blok Sistem
+---
+#  Diagram Blok Sistem
 
 ![Diagram Blok Sistem](diagram-block-system.png)
