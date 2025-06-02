@@ -66,4 +66,4 @@ LED- ------ GND
 ---
 #  Diagram Blok Sistem
 
-![Diagram Blok Sistem](diagram-block-system.png)
+![Diagram Blok Sistem](flowchart.jpeg)
