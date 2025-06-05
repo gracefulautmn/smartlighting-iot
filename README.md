@@ -53,17 +53,19 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
 ##  Skema Sederhana
 
 ```plaintext
-[LDR]--[-]--[RTC] ---[+]--- GND
-        |             |
-       3V3 --- [10K Resistor]
-                    |
-               GPIO(ADC ESP32)
-
-LED+ ------ GPIO 18 (PWM)
-LED- ------ GND
+ESP32                                     Breadboard
+  |                                           |
+3V3 ------> LDR Modul (VCC)                   |
+GND ------> Jalur Ground (-) ------------------+--- LDR Modul (GND)
+  |         (pada breadboard)                  |
+D34 ------> LDR Modul (AO)                     +--- LED Katoda (-)
+  |                                            |       ^
+D2  ------> [Resistor 220Ω] ------> LED Anoda (+)      |
+                                                       |
+                                       (Jalur Ground pada Breadboard)
 ```
-
 ---
 #  Diagram Blok Sistem
 
 ![Diagram Blok Sistem](flowchart.jpeg)
+
