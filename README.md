@@ -46,7 +46,7 @@ Proyek ini mendukung beberapa poin dalam Tujuan Pembangunan Berkelanjutan (SDGs)
    - Saat gelap → lampu menyala perlahan (**fade in**)
    - Saat terang → lampu padam perlahan (**fade out**)
 3. **Kontrol PWM**: Digunakan untuk transisi yang halus menggunakan fitur PWM pada ESP32.
-4. **Monitoring**: Sistem ini akan dikembangkan dengan integrasi dashboard **Blynk** / **Website** untuk pemantauan jarak jauh.
+4. **Monitoring**: Sistem ini akan dikembangkan dengan integrasi dashboard **Website** untuk pemantauan jarak jauh.
 
 ---
 
@@ -65,7 +65,11 @@ D2  ------> [Resistor 220Ω] ------> LED Anoda (+)      |
                                        (Jalur Ground pada Breadboard)
 ```
 ---
-#  Diagram Blok Sistem
+##  Diagram Blok Sistem
 
 ![Diagram Blok Sistem](flowchart.jpeg)
 
+---
+##  User Interface
+
+![UI](ui.jpeg)
