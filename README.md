@@ -72,4 +72,17 @@ D2  ------> [Resistor 220Ω] ------> LED Anoda (+)      |
 ---
 ##  User Interface
 
-![UI](ui.jpeg)
+<table>
+  <tr>
+    <td align="center">
+      <img src="manual.jpg" alt="UI Manual" width="300"/>
+      <br />
+      <em>UI Manual</em>
+    </td>
+    <td align="center">
+      <img src="otomatis.jpg" alt="UI Otomatis" width="300"/>
+      <br />
+      <em>UI Otomatis</em>
+    </td>
+  </tr>
+</table>
